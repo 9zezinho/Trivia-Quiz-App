@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/about_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:titleTextColor="?attr/colorOnSecondary"
+        app:title="About This Game"
+        app:titleCentered="true"
+        app:layout_constraintHorizontal_bias="1.5"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/categories_difficulty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/players"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/players_one"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/players_two"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/players_three"
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/user_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_history"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_history_one"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_history_two"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_history_three"
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/reminder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reminder"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reminder_one"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/reminder_two"
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/settings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_about"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings_about_one"
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/rankings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leaderboard_about"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leaderboard_about_one"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leaderboard_about_two"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/leaderboard_about_three"
+                android:textSize="16sp"
+                android:paddingBottom="16dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/lifelines"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lifeline_about"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lifeline_about_one"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lifeline_about_two"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/lifeline_about_three"
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/category_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/category_about"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/category_about_one"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/category_about_two"
+                android:textSize="16sp"
+                android:paddingBottom="4dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/category_about_three"
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/category_about_four"
+                android:textSize="16sp"
+                android:paddingBottom="8dp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/have_fun"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:paddingBottom="8dp" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

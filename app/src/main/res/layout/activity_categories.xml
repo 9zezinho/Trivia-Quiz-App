@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/categoriesToolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/baseline_arrow_back_24"
+        app:title="Categories" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/entertainmentTitle"
+                android:layout_width="154dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/entertainment_title"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <!-- General Knowledge -->
+
+            <HorizontalScrollView
+                android:id="@+id/entertainmentScrollView"
+                android:layout_width="409dp"
+                android:layout_height="119dp"
+                android:layout_marginTop="12dp"
+                android:fillViewport="true">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <!-- Entertainment Category Buttons -->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/booksBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/books"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/filmBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/film"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/musicBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/music"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/tvBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/television"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/comicsBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/comics"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/videoGamesBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/video_games"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/musicalsTheatersBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/musicals_theatres"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/boardGamesBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/board_games"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/jpnAnimeBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/anime"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/cartoonBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/cartoon_animation"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/generalKnowledgeTitle"
+                android:layout_width="179dp"
+                android:layout_height="29dp"
+                android:text="@string/general_knowledge"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/generalKnowledgeBtn"
+                android:layout_width="408dp"
+                android:layout_height="100dp"
+                android:padding="8dp"
+                android:text="@string/general_knowledge"
+                android:textColor="?attr/colorOnPrimary"
+                android:textSize="16sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/scienceTitle"
+                android:layout_width="79dp"
+                android:layout_height="23dp"
+                android:text="@string/science"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Horizontal Scroll view for Science category -->
+            <HorizontalScrollView
+                android:id="@+id/scienceScrollView"
+                android:layout_width="409dp"
+                android:layout_height="119dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/gadgetsBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/gadgets"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/mathsBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/maths"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/compBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/comp"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/othersTitle"
+                android:layout_width="79dp"
+                android:layout_height="23dp"
+                android:text="@string/others"
+                android:textColor="?attr/colorOnSecondary"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+
+            <HorizontalScrollView
+                android:id="@+id/otherScrollView"
+                android:layout_width="409dp"
+                android:layout_height="119dp">
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/mythologyBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/mythology"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/sportsBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/sports"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/geoBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/geography"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/historyBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/history"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/politicsBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/politics"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/artBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/art"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/celebBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/celeb"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/animalsBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/animals"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/vehiclesBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/vehicles"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/scienceAndNatureBtn"
+                        android:layout_width="117dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="16dp"
+                        android:padding="8dp"
+                        android:text="@string/science_nature"
+                        android:textColor="?attr/colorOnPrimary"
+                        android:textSize="16sp" />
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </HorizontalScrollView>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </ScrollView>
+</androidx.appcompat.widget.LinearLayoutCompat>

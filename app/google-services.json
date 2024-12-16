@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710964270104",
+    "project_id": "performance-4e188",
+    "storage_bucket": "performance-4e188.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710964270104:android:069c9d92efe7cb67fc5f6d",
+        "android_client_info": {
+          "package_name": "com.example.performance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCetUS4mNXWgeKmfy8cR9ELQFbHbIisD5k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

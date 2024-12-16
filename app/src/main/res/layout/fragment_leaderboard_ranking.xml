@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?attr/colorPrimaryVariant"
+        android:padding="5dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="@string/rank"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/name_ranking"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:text="@string/level_ranking"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:gravity="center"
+            android:text="@string/points_ranking"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <!-- RecyclerView to display the list of ranked users -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTotalRanking"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

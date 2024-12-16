@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/redeem_lifelines"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="95dp"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="65dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="56dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cardIcon"
+                app:cardBackgroundColor="@android:color/transparent"
+                app:strokeWidth="0dp">
+
+                <ImageView
+                    android:layout_width="37dp"
+                    android:layout_height="29dp"
+                    android:src="@drawable/coin_image"
+                    android:contentDescription="@string/coin_description" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/coinText"
+                android:layout_width="27dp"
+                android:layout_height="match_parent"
+                android:text="@string/coin_points"
+                android:textColor="?attr/colorOnSecondary" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/fifty_fifty_lifeline"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/price5050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_for_three_coins"
+            android:textSize="16sp"
+            android:textColor="?attr/colorTertiary"
+            android:layout_marginEnd="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buy5050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buy_lifeline"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/skip_lifeline"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/priceSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_for_five_coins"
+            android:textSize="16sp"
+            android:textColor="?attr/colorTertiary"
+            android:layout_marginEnd="10dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buySkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buy_lifeline"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

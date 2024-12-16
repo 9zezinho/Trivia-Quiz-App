@@ -1,0 +1,22 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Gradient stroke layer -->
+    <item>
+        <shape android:shape="oval">
+            <gradient
+                android:angle="90"
+                android:startColor="?attr/colorTertiary"
+                android:endColor="?attr/colorOnTertiaryFixedVariant"/>
+            <!-- Width of the "stroke" effect -->
+            <corners android:radius="25dp" />
+        </shape>
+    </item>
+
+    <!-- Inner solid layer (to create the inner content) -->
+    <item android:left="10dp" android:right="5dp" android:top="5dp" android:bottom="5dp">
+        <shape android:shape="oval">
+            <solid android:color="?attr/colorOnPrimary"/> <!-- Background color inside stroke -->
+            <corners android:radius="15dp" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,220 @@
+<resources>
+    <string name="app_name">Performance</string>
+    <string name="categories_title">Categories</string>
+
+    <!--    Login.xml-->
+    <string name="empty_field_registration">Please fill both the email and password</string>
+    <string name="greeting_string">You are logged in as %1$s</string>
+    <string name="signup_successful">Registration Successful. You can Log in now:)</string>
+    <string name="register_while_logged_in">You have already registered</string>
+    <string name="login_failure">Your email or password does not match</string>
+    <string name="login_successful">Login Successful!</string>
+    <string name="logout_successful">Logout Successful!</string>
+    <string name="signup_failure">Registration failure</string>
+    <string name="email_text">Email</string>
+    <string name="email_hint">email</string>
+    <string name="password">Password</string>
+    <string name="password_hint">password.....</string>
+    <string name="login_btn">Login</string>
+    <string name="sign_up_btn">Sign Up</string>
+
+    <!--    Choose.xml-->
+    <string name="high_number">The highest number of question is 50.</string>
+    <string name="select_no_of_q">Select the number of Question</string>
+    <string name="one_fifty">1–50</string>
+    <string name="select_category">Select Category</string>
+    <string name="select_btn">Select</string>
+    <string name="select_level">Select the level</string>
+    <string name="easy_btn">Easy</string>
+    <string name="any_btn">Any</string>
+    <string name="medium_btn">Medium</string>
+    <string name="hard_btn">Hard</string>
+    <string name="type_of_question">Select the type of question</string>
+    <string name="true_false">True/False</string>
+    <string name="multiple_choice">Multiple Choice</string>
+    <string name="start_btn">Start</string>
+    <string name="selected_category_text">You have selected: %1$s</string>
+
+    <!-- History string -->
+    <string name="performance_title">Your Quiz Performance</string>
+    <string name="stats_title">Detailed Stats</string>
+    <string name="total_wins"> Total Wins: </string>
+    <string name="total_loss">Total Loss: </string>
+    <string name="accuracy">Accuracy: </string>
+    <string name="accuracy_value">%d%%</string>
+
+<!--    History Adapter-->
+    <string name="session_timeStamp">Session: %s</string>
+    <string name="session_timeStamp_text">Session Timestamp</string>
+    <string name="expand_btn">Expand</string>
+    <string name="collapse_btn">Collapse</string>
+
+    <!-- Categories string -->
+    <string name="entertainment_title">Entertainment</string>
+    <string name="see_all">See All</string>
+    <string name="books">Books</string>
+    <string name="film">Film</string>
+    <string name="music">Music</string>
+    <string name="television">Television</string>
+    <string name="video_games">Video Games</string>
+    <string name="musicals_theatres">Musicals and Theatres</string>
+    <string name="board_games">Board Games</string>
+    <string name="comics">Comics</string>
+    <string name="anime">Anime</string>
+    <string name="cartoon_animation">Cartoon and Animation</string>
+    <string name="general_knowledge">General Knowledge</string>
+    <string name="science">Science</string>
+    <string name="gadgets">Gadgets</string>
+    <string name="maths">Maths</string>
+    <string name="comp">Computer</string>
+    <string name="others">Others</string>
+    <string name="mythology">Mythology</string>
+    <string name="sports">Sports</string>
+    <string name="geography">Geography</string>
+    <string name="history">History</string>
+    <string name="politics">Politics</string>
+    <string name="art">Art</string>
+    <string name="celeb">Celebrities</string>
+    <string name="animals">Animals</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="science_nature">Science and Nature</string>
+
+    <!-- Home strings -->
+    <string name="account_icon">Account Icon</string>
+    <string name="letter_T">T</string>
+    <string name="letter_r">r</string>
+    <string name="letter_i">i</string>
+    <string name="letter_v">v</string>
+    <string name="letter_o">o</string>
+    <string name="letter_s">s</string>
+    <string name="letter_t">t</string>
+    <string name="letter_y">y</string>
+    <string name="display_pic">Display Picture</string>
+    <string name="username">Username</string>
+    <string name="level">Level: %1$s</string>
+    <string name="points">Points: %1$s</string>
+    <string name="coin_points">20</string>
+    <string name="play">Play</string>
+    <string name="about_text">About</string>
+    <string name="set_reminder">Set Daily Reminder</string>
+    <string name="reminder_description">Reminder Description</string>
+    <string name="settings">Settings</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="logout">Log Out</string>
+    <string name="notification">Notification</string>
+    <string name="fiftyFifty">: %1$s</string>
+    <string name="skip">: %1$s</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="redeem_text">Redeem</string>
+    <string name="fifty_fifty_description">Fifty-Fifty Lifeline</string>
+    <string name="skip_description">Skip Lifeline</string>
+
+
+
+    <!--QuizActivity.xml strings-->
+    <string name="correct_ans">Correct Answer: %1$s</string>
+    <string name="incorrect_ans">Incorrect Answer</string>
+    <string name="correct">Correct Answer</string>
+    <string name="question_text">Question here....</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="true_btn">True</string>
+    <string name="false_btn">False</string>
+    <string name="no_result_description"> Oppise! We tried fetching \ndata according to your selected categories from the Open Trivia API, but there were no results"</string>
+    <string name="response_code_description">Response Code was 1.\nTry changing difficulty level or \nQuestion Type. :)</string>
+    <string name="go_back_btn">Go Back</string>
+    <string name="next_btn">Next</string>
+    <string name="finish_btn">Finish</string>
+    <string name="use_lifelines_btn">Use Lifelines?</string>
+    <string name="fifty_fifty_btn">50–50</string>
+    <string name="left">Left: %d</string>
+    <string name="skip_btn">Skip</string>
+
+
+<!--    Fragment Total Points Ranking-->
+    <string name="rank">Rank</string>
+    <string name="name_ranking">Name</string>
+    <string name="level_ranking">Level</string>
+    <string name="points_ranking">Points</string>
+
+<!--    Cart Dialog Fragment-->
+    <string name="redeem_lifelines">Redeem Lifelines</string>
+    <string name="fifty_fifty_lifeline">50–50 Lifeline</string>
+    <string name="one_for_three_coins">1 for 3 coins</string>
+    <string name="buy_lifeline">Buy</string>
+    <string name="skip_lifeline">Skip Lifeline</string>
+    <string name="one_for_five_coins">1 for 5 coins</string>
+    <string name="coin_description">Coin Icon</string>
+
+<!--    Reminder Dialog Fragment-->
+    <string name="no_reminder_set">No Reminder Set currently!</string>
+    <string name="daily_reminder_text">Your Daily Reminder is set for %1$s. Change?</string>
+    <string name="set_reminder_btn">Set Reminder</string>
+    <string name="cancel_reminder_text">Cancel Reminder? Click here -></string>
+
+<!--    Settings Dialog Fragment-->
+    <string name="music_controls">Music Controls</string>
+    <string name="un_mute_music">UnMute Music</string>
+    <string name="mute_music">Mute Music</string>
+
+<!--    Question Adapter-->
+    <string name="q">Q: %1$s</string>
+    <string name="your_ans_history">Your Answer: %1$s</string>
+
+<!--    UserNameDialogFragment-->
+    <string name="change_username_title">Change Username</string>
+    <string name="username_hint">Your Preferred Username</string>
+    <string name="username_note">Note: If your preferred username is already taken, you can\'t take that one.</string>
+    <string name="username_btn">Change</string>
+
+<!--    Quiz Completed-->
+    <string name="quiz_completed_text">Quiz Completed</string>
+    <string name="result_text">Result</string>
+    <string name="total_correct">Total Correct: %d</string>
+    <string name="total_wrong">Total Wrong: %d</string>
+    <string name="streak">Highest Streak: %d</string>
+    <string name="home_btn">Home</string>
+    <string name="play_again_btn">Play Again</string>
+    <string name="scored_text">You scored %d points</string>
+    <string name="coins_earned_text">You earned %d coins</string>
+    
+<!--    Item Ranking-->
+    <string name="rank_pos">%1$d</string>
+    <string name="user_name">Username</string>
+    <string name="user_points">%1$d</string>
+    <string name="user_lvl">%1$d</string>
+
+<!--    About -->
+    <string name="players">Players can:</string>
+    <string name="players_one">• Choose categories and difficulty levels: Easy, Medium, Hard.</string>
+    <string name="players_two">• Select the type of questions: True/False or Multiple Choice.</string>
+    <string name="players_three">• Earn points and coins based on difficulty, type, and streaks.</string>
+    <string name="profile_history">Profile and History:</string>
+    <string name="profile_history_one">• Change your username by clicking on your profile picture.</string>
+    <string name="profile_history_two">• View question history, chosen answers, and correct answers.</string>
+    <string name="profile_history_three">• Check your accuracy in the History section.</string>
+    <string name="reminder">Reminder:</string>
+    <string name="reminder_one">• Set up a daily reminder to receive notifications at your preferred time.</string>
+    <string name="reminder_two">• You can change or cancel the reminder anytime if you no longer wish to receive it.</string>
+    <string name="settings_about">Settings:</string>
+    <string name="settings_about_one">• Turn music on or off.</string>
+    <string name="leaderboard_about">Leaderboard:</string>
+    <string name="leaderboard_about_one">• See if you are in the Top 10 Rankings.</string>
+    <string name="leaderboard_about_two">• Rankings by user level and every 5 minute.</string>
+    <string name="leaderboard_about_three">• Rankings based on points earned for every 5 Minutes with coin rewards for 1st, 2nd, and 3rd place.</string>
+    <string name="lifeline_about">Lifelines:</string>
+    <string name="lifeline_about_one">• 50–50: Removes two incorrect answers (for Multiple Choice only).</string>
+    <string name="lifeline_about_two">• Skip: Skip any question (True/False or Multiple Choice).</string>
+    <string name="lifeline_about_three">• Redeem lifelines in the Shop using coins.</string>
+    <string name="category_about">Categories:</string>
+    <string name="category_about_one">• Initially General Knowledge and Books are only available for Level 1 user</string>
+    <string name="category_about_two">• You need to meet specific level for different categories and only can be unlocked by spending coins.</string>
+    <string name="category_about_three">• If you click on the category and color changes that means it is unlocked.</string>
+    <string name="category_about_four">• Otherwise, dialog will appear showing the requirements to unlock that category.</string>
+    <string name="have_fun">Have fun :)</string>
+
+<!--    Leaderboard toolbar-->
+    <string name="share">Share</string>
+</resources>
